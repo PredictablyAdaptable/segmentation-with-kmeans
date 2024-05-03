@@ -4,7 +4,7 @@ library(rio)
 library(dplyr)
 
 user <- Sys.getenv("USERNAME")
-setwd(paste0("C:/Users/", user, "/OneWorkplace/Decisions Science - 3. Audience and Agility/Client Work/Noble Foods/2022 Happy Eggs Segmentation/Data"))
+setwd()
 
 #survey <- import("survey_formatted.csv")
 survey <- import("Run Information/survey_run_9.csv")
