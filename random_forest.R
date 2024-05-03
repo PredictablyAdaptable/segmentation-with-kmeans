@@ -1,7 +1,6 @@
 library(haven)
 
-#path = file.path("C:/Users/tim.brandon/OneWorkplace/Decisions Science - Documents/3. Audience and Agility/Client Work/Noble Foods/2022 Happy Eggs Segmentation/Data/Raw/Happy Egg_Final_2308.sav")
-path = file.path("C:/Users/rachel.keyte/OneWorkplace/Decisions Science - 3. Audience and Agility/Client Work/Noble Foods/2022 Happy Eggs Segmentation/Data/Raw/Happy Egg_Final_2308.sav")
+path = file.path()
 
 dataset = read_sav(path)
 
