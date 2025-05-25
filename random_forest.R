@@ -7,11 +7,8 @@ dataset = read_sav(path)
 
 colnames(dataset)
 
-#write.csv(colnames(dataset),file="C:/Users/tim.brandon/OneWorkplace/Decisions Science - Documents/3. Audience and Agility/Client Work/Snap/TURF/Output/col.csv")
 
-
-#survey <- read.csv("C:\\Users\\tim.brandon\\OneWorkplace\\Decisions Science - Documents\\3. Audience and Agility\\Client Work\\Noble Foods\\2022 Happy Eggs Segmentation\\Data\\Run Information\\survey_run_9.csv")
-survey <- read.csv("C:/Users/rachel.keyte/OneWorkplace/Decisions Science - 3. Audience and Agility\\Client Work\\Noble Foods\\2022 Happy Eggs Segmentation\\Data\\Run Information\\survey_run_9.csv")
+survey <- read.csv("survey_run_9.csv")
 
 survey_yg <- survey[c("ID",
                       "egg_frequency","egg_quantity","egg_size","type_purchase_barn","type_purchase_caged","type_purchase_dk","type_purchase_freerange",
