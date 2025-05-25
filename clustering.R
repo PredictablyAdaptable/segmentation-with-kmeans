@@ -16,7 +16,7 @@ library(caret)
 
 
 user <- Sys.getenv("USERNAME")
-setwd(paste0("C:/Users/", user, "/OneWorkplace/Decisions Science - 3. Audience and Agility/Client Work/Noble Foods/2022 Happy Eggs Segmentation/Data"))
+setwd(paste0("C:/Users/", user, "/Data"))
 
 survey <- import("survey_formatted.csv")
 run <- "9"
